@@ -31,6 +31,7 @@ function PostProvided({ children }) {
   function handleClearPosts() {
     setPosts([]);
   }
+  //
   const value = useMemo(() => {
     return {
       posts: searchedPosts,
